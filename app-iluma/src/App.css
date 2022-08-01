@@ -3,12 +3,84 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+form {
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	width: 100%;
+	max-width: 1000px;
+  border-radius: 10%;
+
+}
+
+.field {
+  display: block;
+	font-weight: 700;
+	padding: 10px;
+	min-height: 40px;
+	cursor: pointer;
+  
+}
+
+.field label {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 15px;
+  color: black;
+}
+
+.field input {
+  border-radius: 4%;
+  height: 30px;
+  width: 30%;
+
+}
+
+.field select {
+  height: 2.6rem;
+  padding-left: 0.5rem;
+  border: 2px solid;
+  border-radius: 4%;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.submit button{
+  padding: 0.75rem 1.2rem;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  width: 12%;
+  background-color: rgb(1, 61, 1);
+}
+
+table th, td{
+  border: 2px solid;
+  font-size: 1.3rem;
+  text-align: center;
+  vertical-align: top;
+  border-spacing: 0;
+}
+
+
